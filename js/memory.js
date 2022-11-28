@@ -129,7 +129,7 @@ $(document).ready(function () {
 	//modify div after comparing
 	function afterComparing(element) {
 		$body.css("pointer-events", "inherit");
-		$(element).removeAttr("style").removeClass("selected").html("");
+		$(element).removeClass("selected");
 	}
 
 	//modify div when cells are matched
